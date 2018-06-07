@@ -1,0 +1,77 @@
+body{
+    color:white;
+    font-family: sans-serif;
+}
+
+/*MENU*/
+#img { 
+    width:270px;
+    height:72px;
+}
+
+#Sid {
+    width:200px;
+    height:50px;
+    color:white;
+    text-align:center;
+    background-color:rgba(0,0,0,0);
+    border:2px solid white;
+    border-radius:5px;
+    font-size:20px;
+    padding:0px 15px 0px 15px;
+}
+
+#btnGo {
+    background-color:white;
+    border:2px solid white;
+    border-radius:5px;
+    padding:5px 10px 5px 10px;
+}
+/****/
+
+/*PROFILE*/
+#dp {
+    width:100px;
+    height:100px;
+    background-size:cover;
+    border-radius:50%;
+    margin-right:20px;
+    float:left;
+}
+
+
+/*********/
+@keyframes glow{
+    from{opacity:0}
+    to{opacity:1}
+}
+@-webkit-keyframes glow{
+    from{opacity:0}
+    to{opacity:1}
+}
+@-moz-keyframes glow{
+    from{opacity:0}
+    to{opacity:1}
+}
+@-o-keyframes glow{
+    from{opacity:0}
+    to{opacity:1}
+}
+
+@keyframes loader{
+    from{transform:rotate(0deg)}
+    to{transform:rotate(359deg)}
+}
+@-webkit-keyframes loader{
+    from{-webkit-transform:rotate(0deg)}
+    to{-webkit-transform:rotate(359deg)}
+}
+@-moz-keyframes loader{
+    from{-moz-transform:rotate(0deg)}
+    to{-moz-transform:rotate(359deg)}
+}
+@-o-keyframes loader{
+    from{-o-transform:rotate(0deg)}
+    to{-o-transform:rotate(359deg)}
+}
+
