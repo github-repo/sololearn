@@ -26,9 +26,9 @@ $(function(){
     settings.css({
     "width":"50px",
     "height":"50px",
-    "background-color":"blue",
-    //"background-image":
-    //"url('https://www.ggcprojekt.co.za/images/Ekans/options.png')",
+    "background-color":"none",
+    "background-image":
+    "url('https://gavinchristians.com/sololearn/options.png')",
     "position":"absolute",
     "border-radius":"50%",
     "bottom":"0",
@@ -361,6 +361,7 @@ $(function(){
                     ggc.strokeRect(centerX+(gSize*x),centerY+(gSize*y),gSize,gSize);
                 }
             }
+            
             //Outer frame
             ggc.strokeStyle="black"; //Setting for PC: white
             ggc.strokeRect(centerX,centerY,fWidth,fHeight);
